@@ -81,4 +81,4 @@ output ["Max number of coins: \(num_five_cents + num_ten_cents + num_twentyfive_
 
 ## References
 
-  - XXX
+  - [MiniZinc](https://www.minizinc.org/)
