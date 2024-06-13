@@ -84,3 +84,4 @@ output ["Max number of coins: \(num_five_cents + num_ten_cents + num_twentyfive_
 ## References
 
   - [MiniZinc](https://www.minizinc.org/)
+  - [Discrete optimization](https://en.wikipedia.org/wiki/Discrete_optimization)
