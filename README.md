@@ -18,8 +18,34 @@ What were the minimum and maximum number of coins that she could receive?
 
 ## Source code
 
-```rust
+### MiniZinc model
 
+```minizinc
+
+```
+
+### Minimization Objective
+
+```minizinc
+solve minimize
+    num_five_cents +
+    num_ten_cents +
+    num_twentyfive_cents +
+    num_one_dollar +
+    num_two_dollars;
+```
+
+### Maximisation Objective
+
+```minizinc
+solve maximize
+    num_five_cents +
+    num_ten_cents +
+    num_twentyfive_cents +
+    num_one_dollar +
+    num_two_dollars;
+
+output ["Max number of coins: \(num_five_cents + num_ten_cents + num_twentyfive_cents + num_one_dollar + num_two_dollars)\n"];
 ```
 
 ## Output
