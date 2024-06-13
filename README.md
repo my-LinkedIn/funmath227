@@ -18,10 +18,35 @@ What were the minimum and maximum number of coins that she could receive?
 
 ## Source code
 
-### MiniZinc model
+### Model
 
 ```minizinc
+include "globals.mzn";
 
+% Define Coin denominations in cents
+int: five_cents = 5;
+int: ten_cents = 10;
+int: twentyfive_cents = 25;
+int: one_dollar = 100;
+int: two_dollars = 200;
+
+% Total change in cents
+int: total_change = 995;
+
+% Decision variables
+var 0..total_change div five_cents: num_five_cents;
+var 0..total_change div ten_cents: num_ten_cents;
+var 0..total_change div twentyfive_cents: num_twentyfive_cents;
+var 0..total_change div one_dollar: num_one_dollar;
+var 0..total_change div two_dollars: num_two_dollars;
+
+% Constraints
+constraint
+    num_five_cents * five_cents +
+    num_ten_cents * ten_cents +
+    num_twentyfive_cents * twentyfive_cents +
+    num_one_dollar * one_dollar +
+    num_two_dollars * two_dollars == total_change;
 ```
 
 ### Minimization Objective
