@@ -60,6 +60,8 @@ solve minimize
     num_twentyfive_cents +
     num_one_dollar +
     num_two_dollars;
+
+output ["Min number of coins: \(num_five_cents + num_ten_cents + num_twentyfive_cents + num_one_dollar + num_two_dollars)\n"];
 ```
 
 ### Maximisation Objective
