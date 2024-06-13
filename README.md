@@ -77,7 +77,7 @@ output ["Max number of coins: \(num_five_cents + num_ten_cents + num_twentyfive_
 
 ## Output
 
-Nota: MiniZinc can only consider one Objective at a time, so you have to solve 2 distinct problems using a common Model.
+Nota: MiniZinc can only consider one Objective at a time, so you have to solve 2 distinct problems but using a common Model.
 
 ### Minimisation
 ```text
