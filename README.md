@@ -16,7 +16,7 @@ What were the minimum and maximum number of coins that she could receive?
 ```
 <p><img src="https://github.com/my-LinkedIn/funmath227/blob/main/assets/cad-coins.jpeg"><p>
 
-When it comes to `Discrete Optimisation` problems my way to go is MiniZinc... I strongly recommend it!
+When it comes to `Discrete Optimisation` problems my way to go is [MiniZinc](https://github.com/my-LinkedIn/funmath227/blob/main/README.md#references)... I strongly recommend it!
 
 ## Source code
 
