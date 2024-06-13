@@ -2,7 +2,7 @@
 
 ## Problem statement
 
-[URL link](https://www.linkedin.com/feed/update/urn:li:activity:7206853346815623169?utm_source=share&utm_medium=member_desktop)
+[URL link](https://www.linkedin.com/feed/update/urn:li:activity:7206853346815623169)
 
 ```text
 Fun Math #227
