@@ -7,7 +7,8 @@
 ```text
 Fun Math #227
 
-Bellamy went to a store and bought an electronic gadget which cost $90.05. She paid with a $100 bill and received the change in coins.
+Bellamy went to a store and bought an electronic gadget which cost $90.05.
+She paid with a $100 bill and received the change in coins.
 
 Since the store was in Canada, the denominations of the coins could be 5 cents, 10 cents, 25 cents, a dollar, or two dollars, as shown in the picture below.
 
