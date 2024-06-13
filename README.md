@@ -14,7 +14,7 @@ Since the store was in Canada, the denominations of the coins could be 5 cents, 
 
 What were the minimum and maximum number of coins that she could receive?
 ```
-<p>https://github.com/my-LinkedIn/funmath227/blob/main/assets/cad-coins.jpeg<p>
+<p><img src="https://github.com/my-LinkedIn/funmath227/blob/main/assets/cad-coins.jpeg"><p>
 
 ## Source code
 
